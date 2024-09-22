@@ -17,6 +17,11 @@ https://docs.google.com/spreadsheets/d/1C5nA3lcOcpd2l6dBGocGGIzae8_C-JcDpjCklyWJ
 
 ***Geo/IP APIs***
 ```
+#QR Code Generater
+http://api.qrserver.com/v1/create-qr-code/?data=HelloWorld!&size=100x100
+and
+https://quickchart.io/qr?text=http://unmixture.com&caption=My below text&captionFontFamily=mono&captionFontSize=10&centerImageUrl=https://cdn-icons-png.flaticon.com/512/1389/1389234.png&centerImageSizeRatio=0.2&dark=000000&light=ffffff&ecLevel=Q&format=svg%20&
+
 #get Address
 https://api.bigdatacloud.net/data/reverse-geocode-client
 

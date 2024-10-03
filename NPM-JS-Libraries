@@ -1,1 +1,13 @@
+###Web Page Automation like DUmmy user
+https://pptr.dev/
+```
+Puppeteer is a JavaScript library which provides a high-level API to control Chrome or Firefox over the DevTools Protocol or WebDriver BiDi. 
+Puppeteer runs in the headless (no visible UI) by default
+```
 
+https://d3js.org/
+###Graph visilization & more
+```
+D3.js is a free, open-source JavaScript library for visualizing data. 
+Its low-level approach built on web standards offers unparalleled flexibility in authoring dynamic, data-driven graphics.
+```

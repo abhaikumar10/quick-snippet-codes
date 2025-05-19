@@ -9,7 +9,8 @@ mydt as      (select date_trunc('month', (select yt from my_yt) +interval '-2' m
                date_trunc('month', (select yt from my_yt) +interval '0' month)+ interval'-1' day m_1_end,
                date_trunc('month', (select yt from my_yt))CM_start,
                (select yt from my_yt) yt,
-               (select yt from my_yt) +interval '-1' month LMTD
+               (select yt from my_yt) +interval '-1' month LMTD,
+               (select yt from my_yt) +interval '-2' month LMTD
 )
 select * from mydt
 ```

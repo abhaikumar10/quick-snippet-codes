@@ -12,10 +12,9 @@ https://docs.google.com/spreadsheets/d/1C5nA3lcOcpd2l6dBGocGGIzae8_C-JcDpjCklyWJ
 
 ***Export any google document as PDF with formatting***
 ```
-  const pdfUrl = "https://docs.google.com/spreadsheets/d/" + SpreadsheetApp.getActiveSpreadsheet().getId() + 
+    const pdfUrl = "https://docs.google.com/spreadsheets/d/" + SpreadsheetApp.getActiveSpreadsheet().getId() + 
                  "/export?format=pdf&exportFormat=pdf&gid=" + sheet.getSheetId() + 
-                 "&**portrait**=false&**size**=A4&**top_margin**=0.20&**bottom_margin**=0.20&**left_margin**=0.20&**right_margin**=0.20&**horizontal_alignment**=CENTER";
-
+                 "&portrait=false&size=A4&top_margin=0.20&bottom_margin=0.20&left_margin=0.20&right_margin=0.20&horizontal_alignment=CENTER";
 ```
 
 ***Direct mail with Subject and Mail Body.***
